@@ -1,29 +1,25 @@
-.white{
+.white {
     height: 65px;
     width: 300px;
     background: white;
     border: solid 1px black;
 }
 
-
-.blue{
+.blue {
     height: 65px;
     width: 300px;
     background: blue;
     border: solid 1px black;
 }
 
-
-.red{
+.red {
     height: 65px;
     width: 300px;
     background: red;
     border: solid 1px black;
 }
 
-
-
-#circle{
+.circle {
     margin-top: 22px;
     margin-left: 75px;
     -webkit-border-radius: 75px;
@@ -33,33 +29,34 @@
     border-radius: 50%;
     background: red;
 }
-.around{
+
+.around {
     height: 200px;
     width: 300px;
     border: solid 2px black;
+    margin-top: 60px;
 }
 
-.bkb{
+.block_black {
     height: 100px;
-    background: black;
     width: 100px;
+    background: black;
     display: inline-block;
 }
 
-.bkw{
+.block_black:nth-child(2n) {
     height: 100px;
     width: 100px;
     background: cadetblue;
     display: inline-block;
 }
 
-.bkb:hover{
+.block_black:hover {
     background: darkorange;
 }
 
-.bkw:hover{
-    background: darkorange;
+.margin_block{
+    margin-top:100px;
 }
-
 
 
