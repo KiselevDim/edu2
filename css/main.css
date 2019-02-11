@@ -1,0 +1,65 @@
+.white{
+    height: 65px;
+    width: 300px;
+    background: white;
+    border: solid 1px black;
+}
+
+
+.blue{
+    height: 65px;
+    width: 300px;
+    background: blue;
+    border: solid 1px black;
+}
+
+
+.red{
+    height: 65px;
+    width: 300px;
+    background: red;
+    border: solid 1px black;
+}
+
+
+
+#circle{
+    margin-top: 22px;
+    margin-left: 75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: red;
+}
+.around{
+    height: 200px;
+    width: 300px;
+    border: solid 2px black;
+}
+
+.bkb{
+    height: 100px;
+    background: black;
+    width: 100px;
+    display: inline-block;
+}
+
+.bkw{
+    height: 100px;
+    width: 100px;
+    background: cadetblue;
+    display: inline-block;
+}
+
+.bkb:hover{
+    background: darkorange;
+}
+
+.bkw:hover{
+    background: darkorange;
+}
+
+
+
